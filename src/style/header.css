@@ -1,0 +1,83 @@
+/* header */
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heart-icon{
+    padding-top: 10px;
+    font-size: 40px;
+  }
+  .header{
+      width: 100%;
+      height: 60px;
+      background-color: #FFB400;
+      display: flex;
+      max-width: 1500px;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo{
+      font-size: 40px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      padding-left: 10px;
+    }
+    .nav-link{
+      width: 50%;
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 20px;
+    }
+    .nav-link li{
+      list-style-type: none;
+    }
+    .nav-links{
+      text-decoration: none;
+      font-size: 18px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: black;
+      
+     
+    }
+    .head-icon{
+      font-size: 30px;
+    }
+    .head-icon:hover{
+      color: aliceblue;
+    }
+    .nav-links:hover{
+      text-decoration: underline;
+      
+    }
+    /* responsive  */
+    @media (max-width:640px) {
+      .header{
+        height: 80px;
+        flex-direction: column;
+      }
+      .logo{
+        padding-left: 0px;
+        font-size: 30px;
+      }
+      
+      .nav-link{
+        width: 70%;
+        padding-top: 0px;
+      }
+      .head-icon{
+        font-size: 20px;
+      }
+      .nav-links{
+        font-size: 15px;
+      }
+      .heart-icon{
+        padding-top: 20px;
+  
+      }
+  
+    } 
+    /* header completed */
+    
